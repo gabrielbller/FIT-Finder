@@ -17,12 +17,7 @@ import com.quintus.labs.datingapp.R;
 import com.quintus.labs.datingapp.Utils.PulsatorLayout;
 import com.quintus.labs.datingapp.Utils.TopNavigationViewHelper;
 
-/**
- * Grocery App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class Profile_Activity extends AppCompatActivity {
     private static final String TAG = "Profile_Activity";
     private static final int ACTIVITY_NUM = 0;

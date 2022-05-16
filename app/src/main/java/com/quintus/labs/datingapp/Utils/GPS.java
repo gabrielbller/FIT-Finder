@@ -9,12 +9,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import androidx.core.app.ActivityCompat;
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public class GPS implements LocationListener {
     Context mContext;

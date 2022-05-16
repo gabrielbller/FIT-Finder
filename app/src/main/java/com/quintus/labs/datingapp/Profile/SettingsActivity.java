@@ -14,12 +14,7 @@ import com.quintus.labs.datingapp.Introduction.IntroductionMain;
 import com.quintus.labs.datingapp.R;
 import com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar;
 
-/**
- * Grocery App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public class SettingsActivity extends AppCompatActivity {
     private static final String TAG = "SettingsActivity";

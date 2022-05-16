@@ -6,14 +6,6 @@ import android.util.AttributeSet;
 import android.widget.EditText;
 
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
-
-
 public class EditText_Roboto_Meidum extends EditText {
 
     public EditText_Roboto_Meidum(Context context, AttributeSet attrs, int defStyle) {

@@ -1,13 +1,5 @@
 package com.quintus.labs.datingapp.Main;
 
-
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
-
 public class Cards {
     private String userId;
     private String name, profileImageUrl, bio, interest;

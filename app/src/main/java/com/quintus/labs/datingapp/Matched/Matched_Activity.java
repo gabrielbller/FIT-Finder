@@ -20,12 +20,7 @@ import com.quintus.labs.datingapp.Utils.User;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public class Matched_Activity extends AppCompatActivity {
 
@@ -74,32 +69,32 @@ public class Matched_Activity extends AppCompatActivity {
     }
 
     private void prepareActiveData() {
-        Users users = new Users("1", "Swati Tripathy", 21, "https://im.idiva.com/author/2018/Jul/shivani_chhabra-_author_s_profile.jpg", "Simple and beautiful Girl", "Acting", 200);
+        Users users = new Users("1", "Luiza Fernanda", 21, "https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg", "Simples e adora caminhar", "Atriz", 200);
         usersList.add(users);
-        users = new Users("2", "Ananaya Pandy", 20, "https://i0.wp.com/profilepicturesdp.com/wp-content/uploads/2018/06/beautiful-indian-girl-image-for-profile-picture-8.jpg", "cool Minded Girl", "Dancing", 800);
+        users = new Users("2", "Claudia Parreira", 20, "https://cdn.pixabay.com/photo/2017/12/22/14/42/girl-3033718_960_720.jpg", "Muito paz e amor", "Bailarina", 800);
         usersList.add(users);
-        users = new Users("3", "Anjali Kasyap", 22, "https://pbs.twimg.com/profile_images/967542394898952192/_M_eHegh_400x400.jpg", "Simple and beautiful Girl", "Singing", 400);
+        users = new Users("3", "Ana Janis", 22, "https://cdn.pixabay.com/photo/2015/03/03/18/58/woman-657753_960_720.jpg", "Adoro leg days", "Cantar", 400);
         usersList.add(users);
-        users = new Users("7", "Sudeshna Roy", 19, "https://talenthouse-res.cloudinary.com/image/upload/c_fill,f_auto,h_640,w_640/v1411380245/user-415406/submissions/hhb27pgtlp9akxjqlr5w.jpg", "Papa's Pari", "Art", 5000);
+        users = new Users("7", "Pietra Schonnel", 19, "https://cdn.pixabay.com/photo/2016/11/29/03/35/girl-1867092_960_720.jpg", "Em busca do fitcher perfeito", "Artes", 5000);
         usersList.add(users);
 
         adapter.notifyDataSetChanged();
     }
 
     private void prepareMatchData() {
-        Users users = new Users("1", "Swati Tripathy", 21, "https://im.idiva.com/author/2018/Jul/shivani_chhabra-_author_s_profile.jpg", "Simple and beautiful Girl", "Acting", 200);
+        Users users = new Users("1", "Luiza Fernanda", 21, "https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg", "Simples e adora caminha", "Atriz", 200);
         matchList.add(users);
-        users = new Users("2", "Ananaya Pandy", 20, "https://i0.wp.com/profilepicturesdp.com/wp-content/uploads/2018/06/beautiful-indian-girl-image-for-profile-picture-8.jpg", "cool Minded Girl", "Dancing", 800);
+        users = new Users("2", "Claudia Parreira", 20, "https://cdn.pixabay.com/photo/2017/12/22/14/42/girl-3033718_960_720.jpg", "Muito paz e amor", "Bailarina", 800);
         matchList.add(users);
-        users = new Users("3", "Anjali Kasyap", 22, "https://pbs.twimg.com/profile_images/967542394898952192/_M_eHegh_400x400.jpg", "Simple and beautiful Girl", "Singing", 400);
+        users = new Users("3", "Ana Janis", 22, "https://cdn.pixabay.com/photo/2015/03/03/18/58/woman-657753_960_720.jpg", "Adoro leg days", "Cantar", 400);
         matchList.add(users);
-        users = new Users("4", "Preety Deshmukh", 19, "http://profilepicturesdp.com/wp-content/uploads/2018/07/fb-real-girls-dp-3.jpg", "dashing girl", "swiming", 1308);
+        users = new Users("4", "Pietra Schonnel", 19, "https://cdn.pixabay.com/photo/2016/11/29/03/35/girl-1867092_960_720.jpg", "Em busca do fitcher perfeito", "Nadar", 1308);
         matchList.add(users);
-        users = new Users("5", "Srutimayee Sen", 20, "https://dp.profilepics.in/profile_pictures/selfie-girls-profile-pics-dp/selfie-pics-dp-for-whatsapp-facebook-profile-25.jpg", "chulbuli nautankibaj ", "Drawing", 1200);
+        users = new Users("5", "Bruna Schmitt", 20, "https://cdn.pixabay.com/photo/2016/03/23/08/34/woman-1274361_960_720.jpg", "Na minha ", "Academia", 1200);
         matchList.add(users);
-        users = new Users("6", "Dikshya Agarawal", 21, "https://pbs.twimg.com/profile_images/485824669732200448/Wy__CJwU.jpeg", "Simple and beautiful Girl", "Sleeping", 700);
+        users = new Users("6", "Amanda Ferraz", 21, "https://cdn.pixabay.com/photo/2017/03/17/04/07/woman-2150881_960_720.jpg", "AMOO treinar superiores", "Academia", 700);
         matchList.add(users);
-        users = new Users("7", "Sudeshna Roy", 19, "https://talenthouse-res.cloudinary.com/image/upload/c_fill,f_auto,h_640,w_640/v1411380245/user-415406/submissions/hhb27pgtlp9akxjqlr5w.jpg", "Papa's Pari", "Art", 5000);
+        users = new Users("7", "Luana Dietch", 19, "https://cdn.pixabay.com/photo/2018/01/29/17/01/woman-3116587_960_720.jpg", "Quero alguem que me motive", "Ficar em casa", 5000);
         matchList.add(users);
 
         mAdapter.notifyDataSetChanged();

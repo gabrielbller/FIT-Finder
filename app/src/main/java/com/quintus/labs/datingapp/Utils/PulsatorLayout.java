@@ -22,12 +22,7 @@ import com.quintus.labs.datingapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class PulsatorLayout extends RelativeLayout {
 
     public static final int INFINITE = 0;

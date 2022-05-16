@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable-hdpi/custom_seekbar_progress.xml" value="0.2665" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable-hdpi/custom_switch.xml" value="0.2665" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable-mdpi/custom_circle.xml" value="0.2665" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.1225" />
         <entry key="..\:/FIT-Finder/app/src/main/res/drawable/circle_background.xml" value="0.2665" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable/dislike_border.xml" value="0.2665" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/drawable/like_border.xml" value="0.2665" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/active_user_item.xml" value="0.371875" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/activity_btn_dislike.xml" value="0.371875" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/activity_btn_like.xml" value="0.371875" />
@@ -23,8 +29,15 @@
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/activity_settings.xml" value="0.371875" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/app_bar_main.xml" value="0.371875" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/content_main.xml" value="0.371875" />
-        <entry key="..\:/FIT-Finder/app/src/main/res/layout/item.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/layout/item.xml" value="0.25" />
         <entry key="..\:/FIT-Finder/app/src/main/res/layout/layout_top_navigation_back.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/layout/layout_top_navigation_view.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/layout/matched_item.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/layout/matched_user_item.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/layout/nav_header_main.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/menu/activity_main_drawer.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/menu/main.xml" value="0.371875" />
+        <entry key="..\:/FIT-Finder/app/src/main/res/menu/top_navigation_toolbar.xml" value="0.371875" />
       </map>
     </option>
   </component>

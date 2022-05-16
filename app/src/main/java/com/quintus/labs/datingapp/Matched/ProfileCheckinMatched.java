@@ -17,12 +17,7 @@ import com.quintus.labs.datingapp.R;
 import com.quintus.labs.datingapp.Utils.CalculateAge;
 import com.quintus.labs.datingapp.Utils.User;
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public class ProfileCheckinMatched extends AppCompatActivity {
     private static final String TAG = "ProfileCheckinMatched";
@@ -134,7 +129,7 @@ public class ProfileCheckinMatched extends AppCompatActivity {
     private void sendSMS(String phoneNumber, String userName) {
         Intent smsAppOpener = new Intent(Intent.ACTION_VIEW);
         smsAppOpener.setData(Uri.parse("sms:" + phoneNumber));
-        smsAppOpener.putExtra("sms_body", "Hi " + userName + ", \n" + "Love to have a coffee with you!!!!");
+        smsAppOpener.putExtra("sms_body", "Oi " + userName + ", \n" + "Adoraria ir treinar com vc!!!!");
         startActivity(smsAppOpener);
     }
 
@@ -144,7 +139,7 @@ public class ProfileCheckinMatched extends AppCompatActivity {
         intent.setType("plain/text");
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
         intent.putExtra(Intent.EXTRA_SUBJECT, "Regarding our Pink Moon Match!!!");
-        intent.putExtra(Intent.EXTRA_TEXT, "Hi " + userName + ", \n" + "Love to have a coffee with you!!!!");
+        intent.putExtra(Intent.EXTRA_TEXT, "Oii " + userName + ", \n" + "Vamos sair pra tomar um cafe qualquer dia desses!!");
         startActivity(Intent.createChooser(intent, ""));
     }
 

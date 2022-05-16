@@ -6,13 +6,6 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
-
 public class MyTextView_Roboto_Medium extends TextView {
 
     public MyTextView_Roboto_Medium(Context context, AttributeSet attrs, int defStyle) {

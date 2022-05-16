@@ -16,12 +16,6 @@ import com.quintus.labs.datingapp.R;
 
 import java.util.List;
 
-/**
- * DatingApp
- * https://github.com/quintuslabs/DatingApp
- * Created on 25-sept-2018.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
 
 public class PhotoAdapter extends ArrayAdapter<Cards> {
     Context mContext;
