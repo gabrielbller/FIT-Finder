@@ -55,7 +55,7 @@ public class Login extends AppCompatActivity {
                 String password = mPassword.getText().toString();
 
                 if (isStringNull(email) || isStringNull(password)) {
-                    Toast.makeText(mContext, "You must fill out all the fields", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Você deve preencher todos os campos", Toast.LENGTH_SHORT).show();
                 } else {
 
                     Intent intent = new Intent(Login.this, MainActivity.class);

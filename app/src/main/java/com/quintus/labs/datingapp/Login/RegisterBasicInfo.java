@@ -78,13 +78,13 @@ public class RegisterBasicInfo extends AppCompatActivity {
     private boolean checkInputs(String email, String username, String password) {
         Log.d(TAG, "checkInputs: checking inputs for null values.");
         if (email.equals("") || username.equals("") || password.equals("")) {
-            Toast.makeText(mContext, "All fields must be filed out.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "Todos os campos devem ser preenchidos.", Toast.LENGTH_SHORT).show();
             return false;
         }
 
         // Below code checks if the email id is valid or not.
         if (!email.matches(emailPattern)) {
-            Toast.makeText(getApplicationContext(), "Invalid email address, enter valid email id and click on Continue", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "E-mail invalido, entre com um e-mail valido para continuar", Toast.LENGTH_SHORT).show();
             return false;
 
         }

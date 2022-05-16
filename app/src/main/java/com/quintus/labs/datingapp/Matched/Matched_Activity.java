@@ -82,7 +82,7 @@ public class Matched_Activity extends AppCompatActivity {
     }
 
     private void prepareMatchData() {
-        Users users = new Users("1", "Luiza Fernanda", 21, "https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg", "Simples e adora caminha", "Atriz", 200);
+        Users users = new Users("1", "Luiza Fernanda", 21, "https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg", "Simples e adora caminhar", "Atriz", 200);
         matchList.add(users);
         users = new Users("2", "Claudia Parreira", 20, "https://cdn.pixabay.com/photo/2017/12/22/14/42/girl-3033718_960_720.jpg", "Muito paz e amor", "Bailarina", 800);
         matchList.add(users);

@@ -24,7 +24,7 @@ public class RegisterAge extends AppCompatActivity {
     private DatePicker ageSelectionPicker;
     private Button ageContinueButton;
     // age limit attribute
-    private int ageLimit = 13;
+    private int ageLimit = 18;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +71,7 @@ public class RegisterAge extends AppCompatActivity {
             intent.putExtra("classUser", user);
             startActivity(intent);
         } else {
-            Toast.makeText(getApplicationContext(), "Age of the user should be greater than " + ageLimit + " !!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "A idade tem que ser maior que " + ageLimit + " !!!", Toast.LENGTH_SHORT).show();
         }
 
     }
